@@ -2,29 +2,53 @@
 
 本仓库收集 Loon 代理工具相关的配置文件（.conf）、插件（.plugin）与脚本目录，方便集中管理与复用。
 
-### 仓库内容索引
+### 目录结构
 
-| 路径 | 说明 |
+| 目录 | 说明 |
 |---|---|
+| `Plugin/` | Loon 插件（.plugin）：去广告、Cookie 获取、TestFlight 相关 |
+| `Cookie/` | Cookie 获取相关配置 |
+| `Unlock/` | 解锁类配置 |
+| `TestFlight/` | TestFlight 下载与账号相关配置 |
+| `JD/` | 京东相关配置 |
+| `Config/` | 通用配置：精简分流、测速、双订阅、定时任务 |
 | `JS/` | 第三方脚本配置合集（.conf），详见 [JS/README.md](JS/README.md) |
 | `Bilibili-DailyBonus/` | B 站每日任务相关脚本目录 |
-| `Plugin/` | Loon 插件目录 |
-| `For-own-use.plugin` | 自用插件 |
-| `Loon_Bahamut_ADS.plugin` | Bahamut 去广告插件 |
-| `Loon_GetCookie.plugin` | 获取 Cookie 插件 |
-| `Loon_TF_Account.plugin` | TestFlight 账号相关插件 |
-| `Loon_TF_Download.conf` / `Loon_TF_Download.plugin` | TestFlight 下载相关配置与插件 |
-| `YoutubeAds.plugin` | YouTube 去广告插件 |
-| `Cookie.conf` / `Get_JD_Cookie.conf` | Cookie 获取相关配置 |
-| `Fake_Vip.conf` | 解锁类配置片段 |
-| `JD.conf` | 京东相关配置 |
-| `Task.conf` | 定时任务配置 |
-| `Loon_iRingo.conf` | iRingo 相关配置 |
-| `Loon_DualSubs.conf` | 双订阅配置 |
-| `Loon_url-test.conf` | URL 测速配置 |
-| `Loon_Lite.conf` / `Loon_sd_cn.conf` / `Loon_tf_cn.conf` / `.Loon_tf_cn.conf` | 精简 / 分流 / 中文化相关配置 |
+
+### 文件索引
+
+**Plugin/**
+- `For-own-use.plugin` —— 自用插件
+- `Bahamut-AdBlock.plugin` —— Bahamut 去广告
+- `GetCookie.plugin` —— 获取 Cookie
+- `TestFlight-Account.plugin` —— TestFlight 账号相关
+- `TestFlight-Download.plugin` —— TestFlight 下载相关
+- `YouTube-AdBlock.plugin` —— YouTube 去广告
+
+**Cookie/**
+- `Get-Cookie.conf` —— Cookie 获取配置
+- `JD-Get-Cookie.conf` —— 京东 Cookie 获取配置
+
+**Unlock/**
+- `Fake-VIP.conf` —— 解锁类配置片段
+- `iRingo.conf` —— iRingo 相关配置
+
+**TestFlight/**
+- `Download.conf` —— TestFlight 下载配置
+- `TF-CN.conf` / `TF-CN-v2.conf` —— TestFlight 中文化相关配置
+
+**JD/**
+- `JD.conf` —— 京东相关配置
+
+**Config/**
+- `Lite.conf` —— 精简配置
+- `SD-CN.conf` —— 分流配置
+- `DualSubs.conf` —— 双订阅配置
+- `URL-Test.conf` —— URL 测速配置
+- `Task.conf` —— 定时任务配置
 
 ---
+
 ### 特别感谢 ：
 * [@NobyDa](https://github.com/NobyDa)
 
