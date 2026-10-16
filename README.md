@@ -19,11 +19,29 @@
 
 **Plugin/**
 - `For-own-use.plugin` —— 自用插件
+- `115.plugin` —— 115 相关
 - `Bahamut-AdBlock.plugin` —— Bahamut 去广告
+- `BilibiliPJ.pligin` —— 哔哩哔哩相关（仓库内原文件拼写为 .pligin）
+- `ChangeUA.plugin` —— 修改 UA
+- `Display Netflix Ratings.plugin` —— Netflix 显示评分
+- `EMBY.plugin` —— Emby 相关
 - `GetCookie.plugin` —— 获取 Cookie
+- `Historical Price.plugin` —— 历史价格查询
+- `Host.plugin` —— Host 配置
+- `HuiJuDongManAds.plugin` —— 动漫去广告
+- `Jd_unbindCard.plugin` —— 京东解绑相关
+- `Manhuaren.plugin` —— 漫画人相关
+- `MediaCheck.plugin` —— 流媒体检测
+- `Q-Search_All_in_one.plugin` —— 聚合搜索
+- `RRTV.plugin` —— RRTV 相关
+- `TF-Download.plugin` —— TestFlight 下载相关
 - `TestFlight-Account.plugin` —— TestFlight 账号相关
 - `TestFlight-Download.plugin` —— TestFlight 下载相关
 - `YouTube-AdBlock.plugin` —— YouTube 去广告
+- `jd_tb_price.plugin` —— 京东/淘宝比价
+- `skip-proxy.plugin` —— 跳过代理
+- `Block/` / `Unlock/` —— 子目录
+- `README.md` —— 插件使用说明
 
 **Cookie/**
 - `Get-Cookie.conf` —— Cookie 获取配置
@@ -46,6 +64,10 @@
 - `DualSubs.conf` —— 双订阅配置
 - `URL-Test.conf` —— URL 测速配置
 - `Task.conf` —— 定时任务配置
+
+**Bilibili-DailyBonus/**
+- `ExchangePoints.js` —— 积分兑换脚本
+- `Manga.js` —— 漫画脚本
 
 ---
 
