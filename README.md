@@ -42,7 +42,20 @@
 - `YouTube-AdBlock.plugin` —— YouTube 去广告
 - `jd_tb_price.plugin` —— 京东/淘宝比价
 - `skip-proxy.plugin` —— 跳过代理
-- `Block/` / `Unlock/` —— 子目录
+- `Block/` —— 去广告插件子目录
+  - `Advertising.plugin` —— 多应用通用去广告规则
+  - `Bilibili.plugin` —— 哔哩哔哩去广告
+  - `Block Update.plugin` —— 屏蔽 iOS 系统更新（需配合 REJECT 策略组）
+  - `WeiboAds.plugin` —— 微博去广告
+  - `YouTubeAds.plugin` —— YouTube 去广告（Premium 勿用，版本需 ＞ 15.26.4）
+  - `YouTubeAdsTest.plugin` —— YouTube 跳过广告（将广告缩至极短时间；Premium 勿用，版本需高于 15.26.4）
+  - `ZhiHu.plugin` —— 知乎去广告
+- `Unlock/` —— TikTok 地区解锁子目录（一次只能启用一个地区，不可同时使用）
+  - `TikTokJP.plugin` —— TikTok 日区
+  - `TikTokKR.plugin` —— TikTok 韩区
+  - `TikTokTW.plugin` —— TikTok 台区
+  - `TikTokUK.plugin` —— TikTok 英区
+  - `TikTokUS.plugin` —— TikTok 美区
 - `README.md` —— 插件使用说明
 
 **Cookie/**
